@@ -1,0 +1,32 @@
+{
+  "name": "console.js",
+  "version": "1.0.0",
+  "description": "Just a javascript console",
+  "main": "main.js",
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "console.js",
+    "productName": "ConsoleJs",
+    "win": {
+      "target": {
+        "target": "nsis",
+        "arch": [
+          "x64",
+          "ia32"
+        ]
+      },
+      "icon": "icon.ico"
+    }
+  },
+  "author": "bunomonteiro",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "electron": "^1.7.10",
+    "electron-builder": "^19.52.1"
+  }
+}

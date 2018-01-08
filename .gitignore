@@ -1,0 +1,8 @@
+#directories
+node_modules
+dist/*
+!dist/ConsoleJs Setup 1.0.0.exe
+
+#files
+*.tgz
+*.log
